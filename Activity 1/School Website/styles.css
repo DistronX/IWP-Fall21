@@ -74,8 +74,7 @@ button:hover {
 /* Main Section */
 
 .container-dark {
-    color: whitesmoke;
-    background-color: var(--accent);
+    background-color: lightgray;
     padding: 50px 20%;
 }
 
@@ -91,12 +90,6 @@ button:hover {
 .cta {
     padding: 9px 25px;
     margin: 10px 0px;
-    background-color: rgb(211, 211, 211, 1);
-    color: black;
-}
-
-.cta:hover {
-    background-color: rgb(211, 211, 211, 0.8);
 }
 
 hr {
