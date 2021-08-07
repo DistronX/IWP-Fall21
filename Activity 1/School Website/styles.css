@@ -70,8 +70,12 @@ button:hover {
 
 /* Main Section */
 
-.container {
+.container-dark {
     background-color: lightgray;
+    padding: 50px 20%;
+}
+
+.container-light {
     padding: 50px 20%;
 }
 
@@ -82,4 +86,22 @@ button:hover {
 .cta {
     padding: 9px 25px;
     margin: 10px 0px;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
 }
