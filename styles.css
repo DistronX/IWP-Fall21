@@ -131,6 +131,19 @@ h2 {
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ),
+        url(img/events.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 20%;
+    color: white;
+}
+
+#jumbotron-clubs {
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
         url(img/clubs.png);
     background-repeat: no-repeat;
     background-size: cover;
