@@ -73,9 +73,26 @@ button:hover {
 
 /* Main Section */
 
+p {
+    line-height: 2em;
+}
+
 .container-dark {
     background-color: lightgray;
     padding: 50px 20%;
+}
+
+.jumbotron {
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(img/vit-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 20%;
+    color: white;
 }
 
 .container-light {
