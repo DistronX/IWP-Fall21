@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Time Table</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../img/vit-logo.png" alt="vit-logo"></a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="timetable.html">Time Table</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">COE</a></li>
+            </ul>
+        </nav>
+        <a href="   wiki.html"><button>Login</button></a>
+    </header>
+    <main>
+        <div class="container-dark selector">
+            <form action="">
+                <label for="semester">Select Semester: </label>
+                <select name="semester" id="semester">
+                    <option value="Fall 2021-22">Fall 2021-22</option>
+                    <option value="Summer 2021-22">Summer 2021-22</option>
+                    <option value="Winter 2020-21">Winter 2020-21</option>
+                    <option value="Fall 2020-21">Fall 2020-21</option>
+                    <option value="Summer 2020-21">Summer 2020-21</option>
+                    <option value="Winter 2019-20">Winter 2019-20</option>
+                    <option value="Fall 2019-20">Fall 2019-20</option>
+                    <option value="Summer 2019-20">Summer 2019-20</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="container-light">
+            <table id="timetable" class="content-table"> 
+                <thead>
+                    <tr> 
+                        <th class="">THEORY <br>HOURS</td> 
+                        <th class="TheoryHours"> 08:00 AM <br>to <br>08:50 AM </th> 
+                        <th class="TheoryHours"> 09:00 AM <br>to <br>09:50 AM </th> 
+                        <th class="TheoryHours"> 10:00 AM <br>to <br>10:50 AM </th> 
+                        <th class="TheoryHours"> 11:00 AM <br>to <br>11:50 AM </th> 
+                        <th class="TheoryHours"> 12:00 PM <br>to <br>12:50 PM </th> 
+                        <th class="TheoryHours"> N/A </th>
+                        <th class="TheoryHours"> 02:00 PM <br>to <br>02:50 PM </th> 
+                        <th class="TheoryHours"> 03:00 PM <br>to <br>03:50 PM </th> 
+                        <th class="TheoryHours"> 04:00 Ph <br>to <br>04:50 PM </th> 
+                        <th class="TheoryHours"> 05:00 PM <br>to <br>05:50 PM </th> 
+                        <th class="TheoryHours"> 06:00 PM <br>to <br>06:50 PM </th> 
+                        <th class="TheoryHours"> 07:00 PM <br>to <br>07:50 PM </th>  
+                    </tr> 
+                    <tr> 
+                        <th class="">LAB <br>HOURS</th> 
+                        <th class="LabHours">08:00 AM <br>to <br>08:45 AM</th> 
+                        <th class="LabHours">08:46 AM <br>to <br>09:30 AM</th> 
+                        <th class="LabHours">10:00 AM <br>to <br>10:45 AM</th> 
+                        <th class="LabHours">10:46 AM <br>to <br>11:30 AM</th> 
+                        <th class="LabHours">11:31 AM <br>to <br>12:15 AM</th> 
+                        <th class="LabHours">12:16 AM <br>to <br>01:00 PM</th> 
+                        <th class="LabHours">02:00 PM <br>to <br>02:45 PM</th> 
+                        <th class="LabHours">02:46 PM <br>to <br>03:30 PM</th> 
+                        <th class="LabHours">04:00 PM <br>to <br>04:45 PM</th> 
+                        <th class="LabHours">04:46 PM <br>to <br>05:30 PM</th> 
+                        <th class="LabHours">05:31 PM <br>to <br>06:15 PM</th> 
+                        <th class="LabHours">06:16 PM <br>to <br>07:00 PM</th>  
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr>  
+                        <td class="ColumnOneDays">MON</td> 
+                        <td class=" A1 L1 noPostLab"> A1 / L1 </td> 
+                        <td class=" F1 L2 noPreTheory"> F1 / L2 </td> 
+                        <td class=" D1 L3 noPostLab"> D1 / L3 </td> 
+                        <td class=" TB1 L4 noPostLab noPreTheory"> TB1 / L4 </td> 
+                        <td class=" TG1 L5 noPostLab noPreTheory"> TG1 / L5 </td> 
+                        <td class=" L6 noPreTheory">L6</td> 
+                        <td class=" A2 L31 noPostLab"> A2 / L31 </td> 
+                        <td class=" F2 L32 noPreTheory"> F2 / L32 </td> 
+                        <td class=" D2 L33 noPostLab"> D2 / L33 </td> 
+                        <td class=" TB2 L34 noPostLab noPreTheory"> TB2 / L34 </td> 
+                        <td class=" TG2 L35 noPostLab noPreTheory"> TG2 / L35 </td> 
+                        <td class=" V3 L36 noPreTheory"> V3 / L36 </td>  
+                    </tr> 
+                    <tr> 
+                        <td class="ColumnOneDays">TUE</td> 
+                        <td class=" B1 L7 noPostLab"> B1 / L7 </td> 
+                        <td class=" G1 L8 noPreTheory"> G1 / L8 </td> 
+                        <td class=" E1 L9 noPostLab"> E1 / L9 </td> 
+                        <td class=" TC1 L10 noPostLab noPreTheory"> TC1 / L10 </td> 
+                        <td class=" TAA1 L11 noPostLab noPreTheory"> TAA1 / L11 </td> 
+                        <td class=" L12 noPreTheory">L12</td> 
+                        <td class=" B2 L37 noPostLab"> B2 / L37 </td> 
+                        <td class=" G2 L38 noPreTheory"> G2 / L38 </td> 
+                        <td class=" E2 L39 noPostLab"> E2 / L39 </td> 
+                        <td class=" TC2 L40 noPostLab noPreTheory"> TC2 / L40 </td> 
+                        <td class=" TAA2 L41 noPostLab noPreTheory"> TAA2 / L41 </td> 
+                        <td class=" V4 L42 noPreTheory"> V4 / L42 </td>  
+                    </tr> 
+                    <tr> 
+                        <td class="ColumnOneDays">WED</td> 
+                        <td class=" C1 L13 noPostLab"> C1 / L13 </td> 
+                        <td class=" A1 L14 noPreTheory"> A1 / L14 </td> 
+                        <td class=" F1 L15 noPostLab"> F1 / L15 </td> 
+                        <td class=" V1 L16 noPostLab noPreTheory"> V1 / L16 </td> 
+                        <td class=" V2 noPostLab noPreTheory"> V2 </td> 
+                        <td class=""></td> 
+                        <td class=" C2 L43 noPostLab"> C2 / L43 </td> 
+                        <td class=" A2 L44 noPreTheory"> A2 / L44 </td> 
+                        <td class=" F2 L45 noPostLab"> F2 / L45 </td> 
+                        <td class=" TD2 L46 noPostLab noPreTheory"> TD2 / L46 </td> 
+                        <td class=" TBB2 L47 noPostLab noPreTheory"> TBB2 / L47 </td> 
+                        <td class=" V5 L48 noPreTheory"> V5 / L48 </td>  
+                    </tr> 
+                    <tr> 
+                        <td class="ColumnOneDays">THU</td> 
+                        <td class=" D1 L19 noPostLab"> D1 / L19 </td> 
+                        <td class=" B1 L20 noPreTheory"> B1 / L20 </td> 
+                        <td class=" G1 L21 noPostLab"> G1 / L21 </td> 
+                        <td class=" TE1 L22 noPostLab noPreTheory"> TE1 / L22 </td> 
+                        <td class=" TCC1 L23 noPostLab noPreTheory"> TCC1 / L23 </td> 
+                        <td class=" L24 noPreTheory">L24</td> 
+                        <td class=" D2 L49 noPostLab"> D2 / L49 </td> 
+                        <td class=" B2 L50 noPreTheory"> B2 / L50 </td> 
+                        <td class=" G2 L51 noPostLab"> G2 / L51 </td> 
+                        <td class=" TE2 L52 noPostLab noPreTheory"> TE2 / L52 </td> 
+                        <td class=" TCC2 L53 noPostLab noPreTheory"> TCC2 / L53 </td> 
+                        <td class=" V6 L54 noPreTheory"> V6 / L54 </td>  
+                    </tr> 
+                    <tr> 
+                        <td class="ColumnOneDays">FRI</td>
+                        <td class=" E1 L25 noPostLab"> E1 / L25 </td> 
+                        <td class=" C1 L26 noPreTheory"> C1 / L26 </td> 
+                        <td class=" TA1 L27 noPostLab"> TA1 / L27 </td> 
+                        <td class=" TF1 L28 noPostLab noPreTheory"> TF1 / L28 </td> 
+                        <td class=" TD1 L29 noPostLab noPreTheory"> TD1 / L29 </td> 
+                        <td class=" L30 noPreTheory">L30</td> 
+                        <td class=" E2 L55 noPostLab"> E2 / L55 </td> 
+                        <td class=" C2 L56 noPreTheory"> C2 / L56 </td> 
+                        <td class=" TA2 L57 noPostLab"> TA2 / L57 </td> 
+                        <td class=" TF2 L58 noPostLab noPreTheory"> TF2 / L58 </td> 
+                        <td class=" TDD2 L59 noPostLab noPreTheory"> TDD2 / L59 </td> 
+                        <td class=" V7 L60 noPreTheory"> V7 / L60 </td>  
+                    </tr>  
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
