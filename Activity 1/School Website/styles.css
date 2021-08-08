@@ -101,6 +101,10 @@ button:hover {
 p {
     line-height: 2em;
 }
+h2 {
+    padding-left: 20%;
+    padding-bottom: 10px;
+}
 
 .container-dark {
     background-color: lightgray;
@@ -139,7 +143,7 @@ p {
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ),
-        url(img/Achivement.jpg);
+        url(#);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 20%;
@@ -238,27 +242,32 @@ iframe {
 
 
 .column {
+    background-color: white;
     float: left;
     width: 25%;
-    padding: 0 10px;
+    padding: 0 10px 10px;
   }
   
  
-  .row {margin: 0 -5px;}
+.row {
+    background-color: white;
+    margin: 0 -5px;
+    padding-bottom: 10px;
+}
 
-  .card {
-    /* Add shadows to create the "card" effect */
+.card {
     box-shadow: 0 0 8px  rgba(0,0,0,0.2);
     transition: 0.3s;
   }
   
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
-  /* Add some padding inside the card container */
-  .container {
+.container {
     padding: 2px 16px;
+  }
+.clubs {
+      padding-top: 20px;
+      margin-bottom: 20px;
   }
  
