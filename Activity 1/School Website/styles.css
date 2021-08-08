@@ -254,6 +254,11 @@ iframe {
 .card-image {
     height: 300px;
     width: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    padding-top: 10px;
 }
 
 .content {
