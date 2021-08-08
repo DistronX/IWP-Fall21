@@ -30,10 +30,12 @@ header {
     background: var(--main);
 }
 
-li,a,button {
+header li,
+header a,
+button {
     font-weight: 500;
     font-size: 16px;
-    color: aliceblue;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -73,6 +75,29 @@ button:hover {
 
 /* Main Section */
 
+#secondary-nav {
+    background-color: lightgray;
+}
+
+.secondary-nav-links {
+    list-style: none;
+    text-align: center;
+}
+
+.secondary-nav-links li a:hover {
+    color: var(--accent);
+}
+
+.secondary-nav-links li,
+.secondary-nav-links a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
 p {
     line-height: 2em;
 }
@@ -82,7 +107,7 @@ p {
     padding: 50px 20%;
 }
 
-.jumbotron {
+#jumbotron {
     background:
         linear-gradient(
           rgba(0, 0, 0, 0.5), 
@@ -178,4 +203,9 @@ iframe {
 
 .ColumnOneDays {
     border-right: 1px dashed darkgray;
+}
+
+#tour-window {
+    width: 100%;
+    min-height: 500px;
 }
