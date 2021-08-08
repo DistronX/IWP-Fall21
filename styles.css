@@ -97,6 +97,7 @@ button:hover {
     color: black;
     text-decoration: none;
     padding: 10px 20px;
+    transition: all 0.5s ease 0s;
 }
 
 p {
@@ -146,7 +147,7 @@ h2 {
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0)
         ),
-        linear-gradient(45deg, #FFE53B 0%, #FF2525 37%, #c643fd 100%);
+        linear-gradient(43deg, #FFE53B 0%, #FF2525 37%, #c643fd 100%);
     background-color: #FFE53B;
     background-size: cover;
     padding: 200px 20%;
@@ -259,6 +260,7 @@ iframe {
     box-shadow: 0 0 8px  rgba(0,0,0,0.2);
     transition: 0.3s;
     margin: 0 1%;
+    cursor: pointer;
 }
   
 .card:hover {
@@ -277,4 +279,32 @@ iframe {
 
 .content {
     padding: 2px 16px;
+}
+
+/* Footer Section */
+
+footer {
+    padding: 100px 0;
+    height: 400px;
+    width: 100%;
+    background-color: var(--main);
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer p {
+    color: gray;
+}
+
+.social {
+    width: 30px;
+    transition: all 0.5s ease 0s;
+}
+
+.social:hover {
+    opacity: 0.5;
+}
+
+.copyright {
+    font-weight: 300;
 }
