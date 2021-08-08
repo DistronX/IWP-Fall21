@@ -3,4 +3,3 @@
 ### Activity 1
 - Image Mapping (✅)
 - School Website (⚠️)
-- Kraxsh123
