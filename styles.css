@@ -210,12 +210,13 @@ iframe {
 }
 
 .content-table {
-    min-width: 600px;
+    min-width: 400px;
     font-size: 0.9rem;
     border-collapse: collapse;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: auto;
 }
 
 .content-table thead tr{
@@ -284,8 +285,8 @@ iframe {
 }
 
 .card-image {
-    height: 250px;
-    width: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     object-fit: cover;
 }
 
