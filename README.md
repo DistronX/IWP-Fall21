@@ -1,5 +1,2 @@
-# Internet and Web Programming Lab Assigments
+# Internet and Web Programming Lab Assignment Website
 
-### Activity 1
-- Image Mapping (✅)
-- School Website (⚠️)
