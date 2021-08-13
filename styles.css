@@ -105,10 +105,6 @@ button:hover {
 p {
     line-height: 2em;
 }
-h2 {
-    padding-left: 20%;
-    padding-bottom: 10px;
-}
 
 .container-dark {
     background-color: lightgray;
@@ -121,7 +117,7 @@ h2 {
           rgba(0, 0, 0, 0.5), 
           rgba(0, 0, 0, 0.5)
         ),
-        url(img/vit-background.jpeg);
+        url(img/school-background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 20%;
@@ -219,6 +215,7 @@ iframe {
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin: auto;
+    background-color: white;
 }
 
 .content-table thead tr{
@@ -245,7 +242,7 @@ iframe {
 
 .content-table td {
     text-align: center;
-    padding: 10px 5px;
+    padding: 15px;
 }
 
 .content-table tbody td:hover {
@@ -265,11 +262,14 @@ iframe {
     padding: 50px 0;
 }
 
+.stack h1 {
+    padding: 10px 20%;
+}
+
 .card-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: white;
     padding: 0 80px;
 }
 
@@ -279,6 +279,7 @@ iframe {
     transition: 0.3s;
     margin: 10px;
     cursor: pointer;
+    background-color: white;
 }
   
 .card:hover {
@@ -318,6 +319,22 @@ iframe {
 
 .info:hover {
     color: white
+}
+
+.form-container {
+    padding: 0 10%;
+}
+
+.form-container input{
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    width: 50%;
+}
+
+.form-container select{
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    width: 100px;
 }
 
 /* Responsive media querries */
